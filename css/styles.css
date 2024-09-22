@@ -180,9 +180,22 @@
     border-left: 5px solid var(--main-color);
 }
 
-.skills-box i {
+.mentoria-box i {
     font-size: 45px;
     margin-right: 10px;
+}
+
+#mentoria-section-title {
+    border-top: 1px solid var(--border-color);
+    padding-top: 20px;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+#mentoria-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
 }
 
 /* Mobile */

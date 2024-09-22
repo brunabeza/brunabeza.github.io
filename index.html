@@ -9,13 +9,25 @@
   <!-- Dev Icon Fonts -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
   <!-- CSS do Projeto -->
-  <link rel="stylesheet" href="css\styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    #mentoria-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    .mentoria-image {
+      width: 30%; /* Ajuste conforme necessário */
+      height: auto; /* Mantém a proporção da imagem */
+      border-radius: 8px; /* Para bordas arredondadas, se desejar */
+    }
+  </style>
 </head>
 <body>
   <main id="container">
     <aside id="bio-container">
       <h2>Bruna Beza</h2>
-      <img id="bio-image" src="img\profile.png" alt="Bruna Beza">
+      <img id="bio-image" src="img/profile.png" alt="Bruna Beza">
       <p>Olá, meu nome é Bruna Beza e sou <span class="highlight">Quality Engineer</span>.</p>
       <p id="welcome-text">Seja bem-vindo!</p>
       <ul id="social-container">
@@ -52,6 +64,14 @@
           <i class="devicon-k6-plain colored"></i>
           <i class="devicon-locust-plain colored"></i>
         </div>
+      </div>
+      <h3 id="skills-section-title">Mentoria </h3>
+      <p class="description">Compartilhar conhecimento é algo que tenho como essencial, e por isso tenho dedicado meu tempo a mentorar pessoas!</p>
+      <p class="description">Meu foco é principalmente em profissionais juniors ou pessoas que estão migrando de carreira.</p>
+      <div id="mentoria-container">
+        <img src="img/1.png" alt="Mentoria 1" class="mentoria-image">
+        <img src="img/2.png" alt="Mentoria 2" class="mentoria-image">
+        <img src="img/3.png" alt="Mentoria 3" class="mentoria-image">
       </div>
     </section>
   </main>
