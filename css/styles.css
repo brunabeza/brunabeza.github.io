@@ -167,8 +167,8 @@
 }
 
 .skills-box {
-    flex: 1 1 33%;
-    max-width: 33%;
+    flex: 1 1 25%;
+    max-width: 25%;
     margin-bottom: 35px;
 }
 
@@ -197,6 +197,14 @@
     flex-wrap: wrap;
     margin-top: 25px;
 }
+
+.tech-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 6px;
+    vertical-align: middle;
+  }
+
 
 /* Mobile */
 @media(max-width: 450px) {
